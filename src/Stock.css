@@ -1,0 +1,76 @@
+.Stock-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Stock-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: 1200px;
+    border-bottom: 1px solid #eee;
+}
+    
+.Stock {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.Stock h1 {
+    font-size: 16px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.Stock-Symbol {
+    text-transform: uppercase;
+}
+
+.Stock-Data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.Stock-Price {
+    width: 150px;
+}
+
+.Stock-PurchasePrice {
+    width: 150px;
+
+}
+
+.Stock-Quantity {
+    width: 150px;
+
+}
+
+.Stock-Qverall {
+    width: 150px;
+
+}
+
+.Stock-Qverall-Currently {
+    width: 150px;
+
+}
+
+.GainLoss {
+    width: 150px;
+
+}
+
+.red {
+    color: #f00606;
+}
+
+.green {
+    color: #11d811;
+}
